@@ -128,6 +128,30 @@ ul li > a:hover{
     border: none;
 }
 
+/*GODOWN*/
+
+.go-down-container{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    margin-top: 670px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#go-down-button{
+    width: 50%;
+    margin-left: 12.5px;
+    color: white;
+}
+
+#go-down-button i{
+    font-size: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+
 /* Estilos del titulo inicio*/
 #titulo > h1{
     text-align: center;
@@ -136,30 +160,6 @@ ul li > a:hover{
     line-height: 2;
     margin-top: 20px;
     margin-bottom: 70px;
-}
-
-
-/*GODOWN*/
-
-.go-down-container{
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: -240px;
-}
-
-.go-down-button{
-    height: 50px;
-    width: 50px;
-    color: white;
-}
-
-.go-down-button i{
-    font-size: 80px;
-    color: white;
-    cursor: pointer;
 }
 
 
