@@ -139,6 +139,30 @@ ul li > a:hover{
 }
 
 
+/*GODOWN*/
+
+.go-down-container{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -240px;
+}
+
+.go-down-button{
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+
+.go-down-button i{
+    font-size: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+
 /*Estilos de la section acercademi*/
 
 #AcercaDeMi{
