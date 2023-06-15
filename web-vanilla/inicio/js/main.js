@@ -42,3 +42,50 @@ function scrollDown(){
     
     window.requestAnimationFrame(animation);
 }
+
+
+/*
+// Llamada a la API de YouTube
+function fetchYouTubeVideos() {
+    // Cambia "TU_API_KEY" por tu propia clave de API de YouTube
+    const apiKey = "AIzaSyBPC6e8CXIK9-JVSBEmcVKGta5M9DcKsGM";
+    const channelId = "UC6MXPpOvdKJ1Zyzaf_MIP0Q";
+    const maxResults = 2;
+
+
+    const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${maxResults}`;
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            const videosContainer = document.getElementById("videos-container");
+
+            data.items.forEach(item => {
+                const videoId = item.id.videoId;
+                const videoTitle = item.snippet.title;
+                const videoThumbnail = item.snippet.thumbnails.default.url;
+        
+                // Crear elementos HTML para mostrar los videos
+                const videoElement = document.createElement("div");
+                videoElement.className = "video";
+        
+                const thumbnailElement = document.createElement("img");
+                thumbnailElement.className = "thumbnail";
+                thumbnailElement.src = videoThumbnail;
+        
+                const titleElement = document.createElement("p");
+                titleElement.className = "title";
+                titleElement.innerText = videoTitle;
+        
+                // Agregar elementos al contenedor
+                videoElement.appendChild(thumbnailElement);
+                videoElement.appendChild(titleElement);
+                videosContainer.appendChild(videoElement);
+            });
+        })
+    .catch(error => {
+        console.error("Ha ocurrido un error al cargar los videos de YouTube:", error);
+    });
+}
+  // Cargar los videos al cargar la página
+window.onload = fetchYouTubeVideos;
+*/
