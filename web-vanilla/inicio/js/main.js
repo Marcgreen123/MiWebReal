@@ -44,6 +44,11 @@ function scrollDown(){
 }
 
 
+//Generar codigo para que aparezcan los elementos con una animacion al scrollear
+
+
+
+
 /*
 // Llamada a la API de YouTube
 function fetchYouTubeVideos() {
