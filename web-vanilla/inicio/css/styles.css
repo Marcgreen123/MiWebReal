@@ -19,6 +19,7 @@ header{
     padding: 5px;
     background-color: transparent;
     position: sticky;
+    z-index: 5;
     top: 0;
 }
 
