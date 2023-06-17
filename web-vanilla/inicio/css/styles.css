@@ -217,6 +217,9 @@ ul li > a:hover{
 
 
 #youtube-channel #videos-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin-top: 30px;
     margin-bottom: 50px;
     margin-left: auto;
