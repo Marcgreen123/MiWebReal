@@ -75,7 +75,7 @@ ul li > a:hover{
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
        ),
-       url(../../img/principal2.jpeg);
+       url(../img/principal2.jpeg);
     background-position: 45%;
     background-size: 1600px 900px;
     background-repeat: no-repeat;
