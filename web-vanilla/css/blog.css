@@ -20,8 +20,103 @@
     font-weight: 700;
 }
 
-.blogPages-container{
+#blogPages-container{
     display: grid;
     place-content: center;
     width: 100%;
+}
+
+#blogPages-container .blog-box{
+    display: grid;
+    place-items: center;
+    width: 1150px;
+    margin-bottom: 80px;
+}
+
+#blogPages-container .blog-box .image{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#blogPages-container .blog-box .image > img{
+    width: 20%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blogPages-container .blog-box .image > img:hover{
+    transition: all 200ms;
+    opacity: 0.75;
+}
+
+
+#blogPages-container .blog-box .title{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#blogPages-container .blog-box .title > h2{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#blogPages-container .blog-box .basic-info > p{
+    color: #dbdcdd;
+}
+
+#blogPages-container .blog-box .basic-info > p > span{
+    color: #999999bd;
+}
+
+#blogPages-container .blog-box .basic-info > p > a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #c5c5c5cc;
+}
+
+#blogPages-container .blog-box .basic-info > p > a:hover{
+    transition: all 200ms;
+    color: #52b1a9;
+    padding-bottom: 4px;
+}
+
+#blogPages-container .blog-box .description{
+    margin-top: 22px;
+}
+
+#blogPages-container .blog-box .description > p{
+    text-align: center;
+    color: #444444;
+}
+
+#blogPages-container .blog-box .title > h2:hover{
+    transition: all 200ms;
+    color: #52b1a9;
+    text-shadow: 7px 7px 5px #a8a8a87f;
+}
+
+#blogPages-container .blog-box .leer-mas{
+    margin-top: 20px;
+}
+
+#blogPages-container .blog-box .leer-mas > form > button{
+    width: 120px;
+    height: 50px;
+    border: 2px solid #44444430;
+    cursor: pointer;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #444;
+}
+
+#blogPages-container .blog-box .leer-mas > form > button:hover{
+    transition: all 400ms;
+    border: 2px solid #52b1a9;
+    color: #52b1a9;
 }
