@@ -1,5 +1,11 @@
-.header{
-    background-color: #000000e1;
+header{
+    background-color: #000000cc;
+}
+
+header.abajo{
+    transition: all 800ms;
+    height: 110px;
+    background-color: #000000cc;
 }
 
 .titulo{
