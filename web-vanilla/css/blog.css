@@ -40,7 +40,7 @@
 }
 
 #blogPages-container .blog-box .image > img{
-    width: 20%;
+    width: 55%;
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
@@ -99,7 +99,15 @@
 }
 
 #blogPages-container .blog-box .leer-mas{
+    display: grid;
+    place-items: center;
+    width: 18%;
     margin-top: 20px;
+}
+
+#blogPages-container .blog-box .leer-mas-br{
+    border-bottom: 1px solid #c5c5c5cc;
+    padding-bottom: 45px;
 }
 
 #blogPages-container .blog-box .leer-mas > form > button{
