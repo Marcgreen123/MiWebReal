@@ -7,6 +7,7 @@
 }
 
 body{
+    width: 100%;
     min-height: 100vh;
 }
 
@@ -270,4 +271,86 @@ ul li > a:hover{
 .footer > p a:hover{
     transition: all 300ms;
     text-shadow: 0px 0px 10px black;
+}
+
+/* Responsive Design*/
+
+@media (max-width: 1200px){
+    body{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 975px){
+    body{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 640px){
+    body{
+        width: 100%;
+        min-height: 0;
+    }
+}
+
+@media (max-width: 375px){
+    body{
+        width: 100%;
+    }
+
+    .lista-redes{
+        display: none;
+    }
+
+    #encabezado #presentacion{
+        width: 100%; 
+    }
+
+    #encabezado  #presentacion > h1{
+        font-size: 85px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+
+    #AcercaDeMi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 0;
+        gap: 10px;
+    }
+
+    #AcercaDeMi > p {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        font-weight: 600;
+        line-height: 1.5em;
+    }
+
+    #youtube-channel #videos-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #youtube-channel #videos-container > iframe{
+        transition: all 300ms;
+        margin: 10px 0;
+        height: 150px;
+        width: 300px;
+    }
+
+    .footer > p{
+        text-align: center;
+    }   
 }
